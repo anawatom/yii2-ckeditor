@@ -71,7 +71,7 @@ class UploadAction extends ViewAction
     {
 
         if (!file_exists($this->getPath())) {
-            FileHelper::createDirectory($this->getPath());
+            \yii\helpers\FileHelper::createDirectory($this->getPath());
         }
 
         if (Yii::$app->request->isPost) {
