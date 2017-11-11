@@ -1,3 +1,6 @@
+**This library is forked from forked from Bajadev/yii2-ckeditor to fix FileHelper does not found in actions\UploadAction.php**
+
+
 CKEditor for Yii2 with file manager & upload
 
 **Install with composer:** 
